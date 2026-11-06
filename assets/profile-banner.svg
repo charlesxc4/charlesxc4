@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="400" viewBox="0 0 1600 400" role="img" aria-labelledby="title desc">
+  <title id="title">Hi there, this is Charles — Building reliable systems. Exploring intelligent ones.</title>
+  <desc id="desc">A clean dark navy GitHub profile banner with a personal introduction, security, distributed systems and AI infrastructure themes, and two subtly overlaid network meshes.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A111D"/>
+      <stop offset="0.55" stop-color="#101C2C"/>
+      <stop offset="1" stop-color="#0B1724"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7CE0D6"/>
+      <stop offset="1" stop-color="#C9F28A"/>
+    </linearGradient>
+    <radialGradient id="networkGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0" stop-color="#2D8990" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#2D8990" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#9CB6C8" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <filter id="softGlow" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur stdDeviation="3.2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="networkClip">
+      <rect x="0" y="0" width="670" height="400"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background: restrained grid texture from the earlier banner style -->
+  <rect width="1600" height="400" rx="18" fill="url(#bg)"/>
+  <rect width="1600" height="400" rx="18" fill="url(#grid)"/>
+  <ellipse cx="1300" cy="200" rx="310" ry="220" fill="url(#networkGlow)"/>
+
+  <!-- Left: restore the earlier typographic treatment -->
+  <g>
+    <text x="88" y="76" fill="#8FA6BA" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" letter-spacing="2.2">HI THERE, THIS IS <tspan fill="#7CE0D6">CHARLES</tspan></text>
+    <rect x="88" y="98" width="56" height="4" rx="2" fill="url(#accent)"/>
+
+    <text x="88" y="166" fill="#F0F5F8" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="50" font-weight="700" letter-spacing="-1.7">Building reliable systems.</text>
+    <text x="88" y="229" fill="url(#accent)" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="53" font-weight="750" letter-spacing="-2">Exploring intelligent ones.</text>
+
+    <text x="91" y="294" fill="#B5C4D0" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="20" font-weight="450">Security  ·  Distributed systems  ·  AI infrastructure</text>
+
+    <path d="M88 334 H790" stroke="#557082" stroke-opacity="0.38" stroke-width="1"/>
+    <text x="88" y="365" fill="#6F879B" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="1.8">STAY CURIOUS  ·  BUILD WITH INTENT  ·  KEEP EXPLORING</text>
+  </g>
+
+  <!-- Quiet divider between personal copy and network illustration -->
+  <path d="M900 78 V322" fill="none" stroke="#6D8298" stroke-opacity="0.22" stroke-width="1"/>
+  <circle cx="900" cy="200" r="2" fill="#7CE0D6" opacity="0.45"/>
+
+  <!-- Right: preserve the layered network illustration -->
+  <g transform="translate(930 0)" clip-path="url(#networkClip)">
+    <rect x="0" y="0" width="670" height="400" fill="url(#networkGlow)" opacity="0.34"/>
+
+    <!-- Muted background mesh -->
+    <g fill="none" stroke="#78909B" stroke-width="1.05" stroke-linecap="round" stroke-linejoin="round" opacity="0.21">
+      <path d="M-12 42 L54 15 L128 64 L205 35 L270 90 L330 55 L390 110 L468 65 L540 120 L630 70"/>
+      <path d="M-12 42 L-15 190 L70 205 L150 165 L220 220 L290 190 L360 225 L445 185 L525 230 L610 200 L680 260"/>
+      <path d="M54 15 L70 205 L128 64 L150 165 L205 35 L220 220 L270 90 L290 190 L330 55 L360 225"/>
+      <path d="M270 90 L220 220 L205 320 L285 365 L360 325 L450 365 L535 325 L625 370"/>
+      <path d="M390 110 L360 225 L445 185 L450 365 L525 230 L535 325 L610 200 L625 370"/>
+      <path d="M468 65 L445 185 L540 120 L525 230 L630 70 L610 200 L680 260"/>
+      <path d="M-15 190 L30 330 L115 355 L205 320 L285 365"/>
+      <path d="M70 205 L30 330 L150 165 L205 320 L220 220 L285 365"/>
+      <path d="M290 190 L205 320 L360 225 L285 365 L445 185 L450 365"/>
+      <path d="M360 225 L535 325 L445 185 L625 370 L525 230"/>
+    </g>
+
+    <!-- Dashed and dotted background connections -->
+    <g fill="none" stroke="#8097A1" stroke-width="0.95" stroke-linecap="round" stroke-dasharray="3 7" opacity="0.20">
+      <path d="M54 15 L205 35 L330 55 L468 65"/>
+      <path d="M-15 190 L150 165 L290 190 L445 185 L610 200"/>
+      <path d="M30 330 L205 320 L360 325 L535 325 L625 370"/>
+      <path d="M128 64 L220 220 L360 225 L525 230"/>
+    </g>
+    <g fill="none" stroke="#7D939E" stroke-width="0.9" stroke-linecap="round" stroke-dasharray="1.5 6" opacity="0.17">
+      <path d="M-12 42 L128 64 L270 90 L390 110 L540 120"/>
+      <path d="M70 205 L205 320 L285 365 L450 365"/>
+      <path d="M330 55 L445 185 L535 325"/>
+      <path d="M468 65 L525 230 L625 370"/>
+    </g>
+    <g fill="#344B56" opacity="0.88">
+      <circle cx="-12" cy="42" r="4.5"/><circle cx="54" cy="15" r="4.1"/>
+      <circle cx="128" cy="64" r="4.6"/><circle cx="205" cy="35" r="4.2"/>
+      <circle cx="270" cy="90" r="4.5"/><circle cx="330" cy="55" r="4.0"/>
+      <circle cx="390" cy="110" r="4.3"/><circle cx="468" cy="65" r="4.1"/>
+      <circle cx="540" cy="120" r="4.5"/><circle cx="630" cy="70" r="4.2"/>
+      <circle cx="-15" cy="190" r="4.3"/><circle cx="70" cy="205" r="4.6"/>
+      <circle cx="150" cy="165" r="4.1"/><circle cx="220" cy="220" r="4.5"/>
+      <circle cx="290" cy="190" r="4.3"/><circle cx="360" cy="225" r="4.4"/>
+      <circle cx="445" cy="185" r="4.2"/><circle cx="525" cy="230" r="4.5"/>
+      <circle cx="610" cy="200" r="4.3"/><circle cx="680" cy="260" r="4.0"/>
+      <circle cx="30" cy="330" r="4.1"/><circle cx="115" cy="355" r="4.3"/>
+      <circle cx="205" cy="320" r="4.5"/><circle cx="285" cy="365" r="4.2"/>
+      <circle cx="360" cy="325" r="4.2"/><circle cx="450" cy="365" r="4.4"/>
+      <circle cx="535" cy="325" r="4.2"/><circle cx="625" cy="370" r="4.1"/>
+    </g>
+
+    <!-- Brighter foreground mesh -->
+    <g fill="none" stroke="#A8E2E5" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" opacity="0.73">
+      <path d="M260 160 L340 100 L430 145 L545 100 L650 165"/>
+      <path d="M260 160 L300 270 L430 240 L570 285 L665 345"/>
+      <path d="M340 100 L300 270 L390 365"/>
+      <path d="M340 100 L430 145 L430 240 L520 365"/>
+      <path d="M430 145 L545 100 L570 285"/>
+      <path d="M430 145 L570 285 L650 165"/>
+      <path d="M545 100 L650 165 L570 285"/>
+      <path d="M300 270 L430 240 L390 365"/>
+      <path d="M430 240 L570 285 L520 365"/>
+      <path d="M570 285 L665 345 L520 365"/>
+      <path d="M390 365 L520 365"/>
+    </g>
+
+    <!-- Dashed foreground links -->
+    <g fill="none" stroke="#8CD9DF" stroke-width="1" stroke-linecap="round" stroke-dasharray="3 7" opacity="0.48">
+      <path d="M260 160 L430 145 L545 100"/>
+      <path d="M340 100 L430 240 L570 285"/>
+      <path d="M300 270 L520 365 L665 345"/>
+      <path d="M430 145 L570 285 L665 345"/>
+    </g>
+    <g fill="none" stroke="#C0EAEB" stroke-width="0.9" stroke-linecap="round" stroke-dasharray="1.5 6" opacity="0.31">
+      <path d="M260 160 L340 100 L545 100 L650 165"/>
+      <path d="M300 270 L430 240 L520 365"/>
+    </g>
+
+    <!-- Selected active nodes -->
+    <g fill="#8DE7E9" opacity="0.12">
+      <circle cx="340" cy="100" r="13"/>
+      <circle cx="430" cy="145" r="14"/>
+      <circle cx="545" cy="100" r="13"/>
+      <circle cx="650" cy="165" r="14"/>
+      <circle cx="430" cy="240" r="14"/>
+      <circle cx="570" cy="285" r="14"/>
+      <circle cx="520" cy="365" r="13"/>
+    </g>
+    <g fill="#A5F2F0">
+      <circle cx="340" cy="100" r="5.2"/>
+      <circle cx="430" cy="145" r="5.5"/>
+      <circle cx="545" cy="100" r="5.1"/>
+      <circle cx="650" cy="165" r="5.5"/>
+      <circle cx="430" cy="240" r="5.4"/>
+      <circle cx="570" cy="285" r="5.5"/>
+      <circle cx="520" cy="365" r="5.2"/>
+    </g>
+    <g fill="#4D6975" opacity="0.75">
+      <circle cx="260" cy="160" r="4.1"/>
+      <circle cx="300" cy="270" r="4.1"/>
+      <circle cx="390" cy="365" r="4.0"/>
+      <circle cx="665" cy="345" r="4.1"/>
+    </g>
+  </g>
+</svg>
