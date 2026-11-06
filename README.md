@@ -3,11 +3,12 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/charlesxc4">GitHub</a>
-  &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/chen-xu/">LinkedIn</a>
-  &nbsp;·&nbsp;
-  <a href="mailto:charles4fei@gmail.com">Email</a>
+  <a href="https://github.com/charlesxc4">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="mailto:charles4fei@gmail.com">
+    <img src="https://img.shields.io/badge/✉%20Email-555555?style=flat&logoColor=white" alt="Email"/>
+  </a>
 </p>
 
 ---
