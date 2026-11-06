@@ -3,9 +3,13 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/charlesxc4" target="_blank">
-    <img src="https://cdn.simpleicons.org/github/181717"
-         width="24" height="24" alt="GitHub"/>
+  <a href="https://github.com/charlesxc4">
+    <picture>
+      <source media="(prefers-color-scheme: dark)"
+              srcset="https://cdn.simpleicons.org/github/FFFFFF">
+      <img src="https://cdn.simpleicons.org/github/181717"
+           width="24" height="24" alt="GitHub">
+    </picture>
   </a>
   &nbsp;&nbsp;
   <a href="mailto:charles4fei@gmail.com">
