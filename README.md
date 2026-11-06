@@ -11,7 +11,6 @@
            width="24" height="24" alt="GitHub">
     </picture>
   </a>
-  &nbsp;&nbsp;
   <a href="mailto:charles4fei@gmail.com">
     <img src="https://img.icons8.com/ios/50/555555/new-post.png"
          width="24" height="24" alt="Email"/>
