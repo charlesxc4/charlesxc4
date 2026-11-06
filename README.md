@@ -3,11 +3,14 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/charlesxc4">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub"/>
+  <a href="https://github.com/charlesxc4" target="_blank">
+    <img src="https://cdn.simpleicons.org/github/181717"
+         width="24" height="24" alt="GitHub"/>
   </a>
+  &nbsp;&nbsp;
   <a href="mailto:charles4fei@gmail.com">
-    <img src="https://img.shields.io/badge/✉%20Email-555555?style=flat&logoColor=white" alt="Email"/>
+    <img src="https://img.icons8.com/ios/50/555555/new-post.png"
+         width="24" height="24" alt="Email"/>
   </a>
 </p>
 
